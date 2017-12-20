@@ -4,7 +4,8 @@ Just a simple python container for other uses.
 
 - Imports a class to serve as a model from project.models
 
-- Dummy request function to serialize as json
+- Dummy request function with serializing to json
+
 
 Planned usage :
 
@@ -16,3 +17,4 @@ Planned usage :
   OR
 
 3 - Pass it to a message queue (RabbitMQ, Redis)
+
