@@ -1,0 +1,10 @@
+version: '2.1'
+
+services:
+
+  request-json-base-service:
+    container_name: request-json-base-service
+    build: ./
+    volumes:
+      - '.:/usr/src/app'
+
