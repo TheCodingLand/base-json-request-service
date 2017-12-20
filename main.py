@@ -7,7 +7,7 @@ t.Title="ticket"
 t.Description="ticket"
 
 url='http://localhost' #URL ot the Server
-headers = { 'Content-Type': 'text/xml', 'charset': 'utf-8' }
+headers = { 'Content-Type': 'text/json', 'charset': 'utf-8' }
 
 
 def createTicket(ticket):
